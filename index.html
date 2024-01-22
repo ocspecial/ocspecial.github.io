@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OC Special</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: black;
@@ -17,13 +17,29 @@
             align-items: center;
             text-align: center;
         }
+        .special {
+            letter-spacing: 8px;
+            font-size: 28pt;
+            margin-bottom: 50px;
+            font-weight: 600;
+        }
+        .contact-info {
+            font-weight: 400;
+        }
+        a {
+            color: white; /* Set link color */
+            text-decoration: none; /* Remove underline */
+        }
+        a:hover, a:active {
+            text-decoration: underline; /* Optional: Style for hover and active states */
+        }
     </style>
 </head>
 <body>
     <div>
-        <p style="letter-spacing:8px; font-size:28pt; margin-bottom:50px">OC SPECIAL</p>
-        <p>Paris and West Hollywood<br><br>
-        +33 1 4500 8000</p>
+        <p class="special">OC SPECIAL</p>
+        <p class="contact-info">Paris and West Hollywood<br><br>
+        <a href="tel:+33145008000">+33 1 4500 8000</a></p>
     </div>
 </body>
 </html>
