@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /privacy-policy/
+Disallow: /policies/OC_Special_202401_Politique_de_confidentialite_1613712.3.pdf
+Disallow: /policies/
+Disallow: /policies/privacy-policy/
