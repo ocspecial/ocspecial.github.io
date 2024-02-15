@@ -50,8 +50,8 @@ body {
 /* Adjustments for screens smaller than 600px wide */
 @media (max-width: 600px) {
     .main-logo {
-        max-width: 240px; /* Adjust the logo size for smaller screens */
-        margin-bottom: 20px; /* Optionally adjust the bottom margin */
+        max-width: 300px; /* Adjust the logo size for smaller screens */
+        margin-bottom: 40px; /* Optionally adjust the bottom margin */
     }
 
     .contact-info {
