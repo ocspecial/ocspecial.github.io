@@ -50,14 +50,14 @@ body {
 /* Adjustments for screens smaller than 600px wide */
 @media (max-width: 600px) {
     .main-logo {
-        max-width: 200px; /* Adjust the logo size for smaller screens */
+        max-width: 240px; /* Adjust the logo size for smaller screens */
         margin-bottom: 20px; /* Optionally adjust the bottom margin */
     }
 
     .contact-info {
         font-size: 7pt; /* Adjust text size for readability */
         letter-spacing: 1.8px; /* Adjust letter spacing */
-        line-height: 12px; /* Adjust line height for better readability */
+        line-height: 8px; /* Adjust line height for better readability */
     }
 }
 
