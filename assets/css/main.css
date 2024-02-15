@@ -31,6 +31,14 @@ body {
     margin-right: -8px;
 }
 
+.main-logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 420px;
+    height: auto;
+}
+
 .contact-info {
     font-weight: 400;
 }
