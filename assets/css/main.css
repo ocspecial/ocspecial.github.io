@@ -34,6 +34,7 @@ body {
 .main-logo {
     display: block;
     margin: 0 auto;
+    margin-top: 50px;
     margin-bottom: 50px;
     max-width: 420px;
     height: auto;
@@ -45,19 +46,25 @@ body {
     letter-spacing: 2.2px;
     line-height: 10px;
     margin-right: -2.2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* Adjustments for screens smaller than 600px wide */
 @media (max-width: 600px) {
     .main-logo {
         max-width: 300px; /* Adjust the logo size for smaller screens */
+        margin-top: 40px;
         margin-bottom: 40px; /* Optionally adjust the bottom margin */
     }
 
     .contact-info {
+        margin-top: 40px;
+        margin-bottom: 40px;
         font-size: 7pt; /* Adjust text size for readability */
         letter-spacing: 1.8px; /* Adjust letter spacing */
         line-height: 8px; /* Adjust line height for better readability */
+        margin-right: -1.8px;
     }
 }
 
