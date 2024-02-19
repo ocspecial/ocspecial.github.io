@@ -70,6 +70,15 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
+.email {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 10pt;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 footer {
     position: absolute;
     bottom: 10px;
